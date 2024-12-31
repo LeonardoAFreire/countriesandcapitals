@@ -19,7 +19,7 @@
         </div>
         <div class="row fs-1">
             <div class="col text-end">Score Final:</div>
-            <div class="col {{$percentage < 50 ? 'text-danger' : 'text-sucesss'}}">{{$percentage}}</div>
+            <div class="col {{$percentage < 50 ? 'text-danger' : 'text-sucesss'}}">{{$percentage}} %</div>
         </div>
         
     </div>
